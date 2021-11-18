@@ -1,0 +1,4 @@
+# Set the chat prefix which will be used when the plugin replies to a command.
+#
+# Example: [PREFIX] You are currently on level {player.executor.getLevel}
+chat-prefix: 'PREFIX'
