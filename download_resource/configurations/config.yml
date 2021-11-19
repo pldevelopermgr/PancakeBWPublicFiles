@@ -2,3 +2,27 @@
 #
 # Example: [PREFIX] You are currently on level {player.executor.getLevel}
 chat-prefix: 'PREFIX'
+
+# Modules:
+# Modules are manage different sections of the plugin:
+# - Main Module: ARENA_SETUP, GAME_HANDLING, STATISTICS
+# - Spy Module: SPYING (Other players can see stats if they have permission)
+# - Sneaky Module: PRIVACY_MANAGER (Private Stats)
+# - Admin Module: STAFF_ACTION_HANDLER
+modules:
+
+# Main Module Config: PluginFolder/modules/main-module/module.config.yml
+    main:
+        enable: true
+
+# Spy Module Config: PluginFolder/modules/spy-module/module.config.yml
+    spy:
+        enable: false
+
+# Sneaky Module Config: PluginFolder/modules/sneaky-module/module.config.yml
+    sneaky:
+        enable: false
+
+# Admin Module Config: PluginFolder/modules/admin-module/module.config.yml
+    admin:
+        enable: true
